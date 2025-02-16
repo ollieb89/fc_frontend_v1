@@ -62,7 +62,7 @@ export default function TestimonialsSection({ className = '' }: TestimonialsSect
             <div key={testimonial.author} className="lg:col-span-1">
               <div className="h-full bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 p-8 group">
                 <blockquote>
-                  <p className="text-lg text-gray-600 mb-8 leading-relaxed">"{testimonial.content}"</p>
+                  <p className="text-lg text-gray-600 mb-8 leading-relaxed">&quot;{testimonial.content}&quot;</p>
                   <div className="flex items-center">
                     <div className="flex-shrink-0 h-12 w-12 rounded-xl overflow-hidden shadow-sm group-hover:shadow transition-shadow duration-300">
                       <Image

@@ -32,7 +32,7 @@ export default function HowItWorksSection({ className = '' }: HowItWorksSectionP
             Get Started in Three Simple Steps
           </p>
           <p className="mt-6 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Setting up your financial dashboard is quick and easy. Here's how it works:
+            Setting up your financial dashboard is quick and easy. Here&apos;s how it works:
           </p>
         </div>
 
