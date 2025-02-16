@@ -1,0 +1,25 @@
+{
+  "platform": {
+    "apiRuntime": "node:20"
+  },
+  "configurations": {
+    "production": {
+      "buildProperties": {
+        "outputLocation": "dist"
+      }
+    }
+  },
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  },
+  "routes": [
+    {
+      "route": "/*",
+      "serve": "/index.html",
+      "statusCode": 200
+    }
+  ],
+  "globalHeaders": {
+    "content-security-policy": "default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'none'"
+  }
+}
