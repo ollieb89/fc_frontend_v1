@@ -22,4 +22,16 @@
   "globalHeaders": {
     "content-security-policy": "default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'none'"
   }
+},
+
+{
+  "routes": [
+    {
+      "route": "/api/*",
+      "rewrite": "https://fc-backend-v2-dev-g5yhc6fhqa5pa.azurewebsites.net/api/"
+    }
+  ],
+  "globalHeaders": {
+    "Access-Control-Allow-Origin": "*"
+  }
 }
